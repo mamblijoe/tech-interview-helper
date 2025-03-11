@@ -1,6 +1,7 @@
 [
   {
     "group": "Web Development",
+    "subgroup": "Rendering Strategies",
     "question": "основные стратегии рендеринга (CSR, SSR, SSG, ISG)",
     "description": "",
     "rate": "default",
@@ -9,6 +10,7 @@
   },
   {
     "group": "Web Development",
+    "subgroup": "Architecture Patterns",
     "question": "bff паттерн",
     "description": "",
     "rate": "default",
@@ -17,6 +19,7 @@
   },
   {
     "group": "Web Development",
+    "subgroup": "Cross-Browser Compatibility",
     "question": "Что такое кроссбраузерность?",
     "description": "",
     "rate": "default",
@@ -25,6 +28,7 @@
   },
   {
     "group": "Web Development",
+    "subgroup": "Document Flow",
     "question": "Что такое поток документа?",
     "description": "",
     "rate": "default",
@@ -33,6 +37,7 @@
   },
   {
     "group": "Web Development",
+    "subgroup": "Web Storage",
     "question": "Разница между cookie, sessionStorage и localStorage?",
     "description": "",
     "rate": "default",
@@ -41,6 +46,7 @@
   },
   {
     "group": "Web Development",
+    "subgroup": "Browser APIs",
     "question": "Что такое History API в браузере?",
     "description": "",
     "rate": "default",
@@ -49,6 +55,7 @@
   },
   {
     "group": "Web Development",
+    "subgroup": "Performance Optimization",
     "question": "Разница между preload, prefetch, preconnect и prerender?",
     "description": "",
     "rate": "default",
@@ -57,6 +64,7 @@
   },
   {
     "group": "Web Development",
+    "subgroup": "Rendering Process",
     "question": "Разница между layout, painting и compositing?",
     "description": "",
     "rate": "default",
@@ -65,6 +73,7 @@
   },
   {
     "group": "Web Development",
+    "subgroup": "Progressive Web Apps",
     "question": "Что такое Progressive Web Application (PWA)?",
     "description": "",
     "rate": "default",
@@ -73,6 +82,7 @@
   },
   {
     "group": "Web Development",
+    "subgroup": "Web Components",
     "question": "Что такое Веб-компоненты?",
     "description": "",
     "rate": "default",
@@ -81,6 +91,7 @@
   },
   {
     "group": "Web Development",
+    "subgroup": "HTML Best Practices",
     "question": "Почему хорошей практикой считается располагать <link> для подключения CSS стилей внутри тэга <head>, а <script> для подключения JS ставить перед закрывающимся тэгом </body>?",
     "description": "",
     "rate": "default",
@@ -89,6 +100,7 @@
   },
   {
     "group": "UI/UX",
+    "subgroup": "UI Libraries",
     "question": "ui библиотеки - какие использовали",
     "description": "",
     "rate": "default",
@@ -96,8 +108,9 @@
     "id": 12
   },
   {
-    "group": "UI/UX",
-    "question": "оценить макет",
+    "group": "TypeScript",
+    "subgroup": "General",
+    "question": "typescript - опыт работы",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -105,7 +118,8 @@
   },
   {
     "group": "TypeScript",
-    "question": "typescript - опыт работы",
+    "subgroup": "Types vs Interfaces",
+    "question": "чем отличаются типы от интерфейсов",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -113,7 +127,8 @@
   },
   {
     "group": "TypeScript",
-    "question": "чем отличаются типы от интерфейсов",
+    "subgroup": "Types",
+    "question": "unknown vs any",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -121,7 +136,8 @@
   },
   {
     "group": "TypeScript",
-    "question": "unknown vs any",
+    "subgroup": "General",
+    "question": "Что такое TypeScript?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -129,7 +145,8 @@
   },
   {
     "group": "TypeScript",
-    "question": "Что такое TypeScript?",
+    "subgroup": "Types",
+    "question": "Типы в TypeScript?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -137,7 +154,8 @@
   },
   {
     "group": "TypeScript",
-    "question": "Типы в TypeScript?",
+    "subgroup": "Types vs Interfaces",
+    "question": "Разница между типом (type) и интерфейсом (interface)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -145,7 +163,8 @@
   },
   {
     "group": "TypeScript",
-    "question": "Разница между типом (type) и интерфейсом (interface)?",
+    "subgroup": "Classes vs Interfaces",
+    "question": "Разница между абстрактным классом (abstract class) и интерфейсом (interface)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -153,7 +172,8 @@
   },
   {
     "group": "TypeScript",
-    "question": "Разница между абстрактным классом (abstract class) и интерфейсом (interface)?",
+    "subgroup": "Functions",
+    "question": "Как TypeScript поддерживает необязательные и дефолтные параметры в функции?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -161,7 +181,8 @@
   },
   {
     "group": "TypeScript",
-    "question": "Как TypeScript поддерживает необязательные и дефолтные параметры в функции?",
+    "subgroup": "Enums",
+    "question": "Что такое перечисление (enum)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -169,7 +190,8 @@
   },
   {
     "group": "TypeScript",
-    "question": "Что такое перечисление (enum)?",
+    "subgroup": "Types",
+    "question": "Разница между типами “Объединение” (|) и “Пересечение” (&)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -177,7 +199,8 @@
   },
   {
     "group": "TypeScript",
-    "question": "Разница между типами “Объединение” (|) и “Пересечение” (&)?",
+    "subgroup": "Generics",
+    "question": "Что такое общие типы (generic) в TypeScript?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -185,7 +208,8 @@
   },
   {
     "group": "TypeScript",
-    "question": "Что такое общие типы (generic) в TypeScript?",
+    "subgroup": "Types",
+    "question": "Разница между типами void, never и unknown?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -193,7 +217,8 @@
   },
   {
     "group": "TypeScript",
-    "question": "Разница между типами void, never и unknown?",
+    "subgroup": "Access Modifiers",
+    "question": "Модификаторы доступа в TypeScript?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -201,15 +226,17 @@
   },
   {
     "group": "TypeScript",
-    "question": "Модификаторы доступа в TypeScript?",
+    "subgroup": "Decorators",
+    "question": "Что такое декораторы?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 26
   },
   {
-    "group": "TypeScript",
-    "question": "Что такое декораторы?",
+    "group": "State Management",
+    "subgroup": "General",
+    "question": "стейт менеджмент - redux/mobx? для чего нужны сторы?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -217,7 +244,8 @@
   },
   {
     "group": "State Management",
-    "question": "стейт менеджмент - redux/mobx? для чего нужны сторы?",
+    "subgroup": "Vue State Management",
+    "question": "pinia / vuex, для чего нужны сторы",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -225,7 +253,8 @@
   },
   {
     "group": "State Management",
-    "question": "pinia / vuex, для чего нужны сторы",
+    "subgroup": "Redux",
+    "question": "Что такое Redux? Ключевые принципы Redux?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -233,7 +262,8 @@
   },
   {
     "group": "State Management",
-    "question": "Что такое Redux? Ключевые принципы Redux?",
+    "subgroup": "Redux",
+    "question": "Что такое редьюсер (Reducer)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -241,7 +271,8 @@
   },
   {
     "group": "State Management",
-    "question": "Что такое редьюсер (Reducer)?",
+    "subgroup": "Redux vs React",
+    "question": "Разница между React State и Redux State?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -249,7 +280,8 @@
   },
   {
     "group": "State Management",
-    "question": "Разница между React State и Redux State?",
+    "subgroup": "Redux",
+    "question": "Что такое middleware, для каких целей используют и какие существуют реализации в экосистеме redux?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -257,7 +289,8 @@
   },
   {
     "group": "State Management",
-    "question": "Что такое middleware, для каких целей используют и какие существуют реализации в экосистеме redux?",
+    "subgroup": "Redux",
+    "question": "Как выглядит поток данных в Redux-приложении?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -265,15 +298,17 @@
   },
   {
     "group": "State Management",
-    "question": "Как выглядит поток данных в Redux-приложении?",
+    "subgroup": "Redux",
+    "question": "Плюсы и минусы Redux?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 34
   },
   {
-    "group": "State Management",
-    "question": "Плюсы и минусы Redux?",
+    "group": "Security",
+    "subgroup": "Authentication",
+    "question": "Разница между идентификацией, аутентификацией, авторизацией?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -281,15 +316,17 @@
   },
   {
     "group": "Security",
-    "question": "Разница между идентификацией, аутентификацией, авторизацией?",
+    "subgroup": "Content Security",
+    "question": "Что такое Content Security Policy (CSP)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 36
   },
   {
-    "group": "Security",
-    "question": "Что такое Content Security Policy (CSP)?",
+    "group": "React",
+    "subgroup": "Lifecycle Methods",
+    "question": "как выполнить функцию при монтировании / размонтировании компонента?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -297,7 +334,8 @@
   },
   {
     "group": "React",
-    "question": "как выполнить функцию при монтировании / размонтировании компонента?",
+    "subgroup": "Hooks",
+    "question": "в чем отличие useEffect от useLayoutEffect",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -305,7 +343,8 @@
   },
   {
     "group": "React",
-    "question": "в чем отличие useEffect от useLayoutEffect",
+    "subgroup": "Props",
+    "question": "для чего нужен children prop",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -313,7 +352,8 @@
   },
   {
     "group": "React",
-    "question": "для чего нужен children prop",
+    "subgroup": "Rendering",
+    "question": "компоненты можно рендерить только в корневом dom элементе?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -321,7 +361,8 @@
   },
   {
     "group": "React",
-    "question": "компоненты можно рендерить только в корневом dom элементе?",
+    "subgroup": "Hooks",
+    "question": "для чего нужен useCallback",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -329,7 +370,8 @@
   },
   {
     "group": "React",
-    "question": "для чего нужен useCallback",
+    "subgroup": "Rendering",
+    "question": "в каких случаях компонент может перерендериться - ( + батчинг сетстейта)",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -337,7 +379,8 @@
   },
   {
     "group": "React",
-    "question": "в каких случаях компонент может перерендериться - ( + батчинг сетстейта)",
+    "subgroup": "Props",
+    "question": "что такое prop drilling и как от него избавиться",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -345,7 +388,8 @@
   },
   {
     "group": "React",
-    "question": "что такое prop drilling и как от него избавиться",
+    "subgroup": "Context",
+    "question": "обновление контекста = обновление всего дерева?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -353,7 +397,8 @@
   },
   {
     "group": "React",
-    "question": "обновление контекста = обновление всего дерева?",
+    "subgroup": "Server Components",
+    "question": "cерверные компоненты",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -361,7 +406,8 @@
   },
   {
     "group": "React",
-    "question": "cерверные компоненты",
+    "subgroup": "Virtual DOM",
+    "question": "что такое vdom, при рендере компонента перерисовывается весь шаблон?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -369,7 +415,8 @@
   },
   {
     "group": "React",
-    "question": "что такое vdom, при рендере компонента перерисовывается весь шаблон?",
+    "subgroup": "Component Creation",
+    "question": "какие есть основные подходы для создания компонентов? (Options, Composition)",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -377,7 +424,8 @@
   },
   {
     "group": "React",
-    "question": "какие есть основные подходы для создания компонентов? (Options, Composition)",
+    "subgroup": "Lifecycle Methods",
+    "question": "жизненный цикл компонента",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -385,7 +433,8 @@
   },
   {
     "group": "React",
-    "question": "жизненный цикл компонента",
+    "subgroup": "Props",
+    "question": "prop drilling (provide / inject)",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -393,7 +442,8 @@
   },
   {
     "group": "React",
-    "question": "prop drilling (provide / inject)",
+    "subgroup": "Error Handling",
+    "question": "как перехватить ошибку в компоненте?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -401,7 +451,8 @@
   },
   {
     "group": "React",
-    "question": "как перехватить ошибку в компоненте?",
+    "subgroup": "Async Components",
+    "question": "что такое async components",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -409,7 +460,8 @@
   },
   {
     "group": "React",
-    "question": "что такое async components",
+    "subgroup": "Hooks",
+    "question": "как переиспользовать какую-либо логику? писали когда-нибудь свои хуки? (composables)",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -417,7 +469,8 @@
   },
   {
     "group": "React",
-    "question": "как переиспользовать какую-либо логику? писали когда-нибудь свои хуки? (composables)",
+    "subgroup": "General",
+    "question": "Что такое React?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -425,7 +478,8 @@
   },
   {
     "group": "React",
-    "question": "Что такое React?",
+    "subgroup": "Reactivity",
+    "question": "Является ли React реактивным?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -433,7 +487,8 @@
   },
   {
     "group": "React",
-    "question": "Является ли React реактивным?",
+    "subgroup": "Virtual DOM",
+    "question": "Что такое Virtual DOM? Как он работает с React?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -441,7 +496,8 @@
   },
   {
     "group": "React",
-    "question": "Что такое Virtual DOM? Как он работает с React?",
+    "subgroup": "JSX",
+    "question": "Что такое JSX?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -449,7 +505,8 @@
   },
   {
     "group": "React",
-    "question": "Что такое JSX?",
+    "subgroup": "Strict Mode",
+    "question": "Что такое строгий режим в React? Его преимущества?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -457,7 +514,8 @@
   },
   {
     "group": "React",
-    "question": "Что такое строгий режим в React? Его преимущества?",
+    "subgroup": "State vs Props",
+    "question": "Разница между состоянием(state) и пропсами(props)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -465,7 +523,8 @@
   },
   {
     "group": "React",
-    "question": "Разница между состоянием(state) и пропсами(props)?",
+    "subgroup": "Props",
+    "question": "Что такое «бурение пропсов» (Prop Drilling)? Как его избежать?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -473,7 +532,8 @@
   },
   {
     "group": "React",
-    "question": "Что такое «бурение пропсов» (Prop Drilling)? Как его избежать?",
+    "subgroup": "Fragments",
+    "question": "Что такое фрагмент (Fragment)? Почему фрагмент лучше, чем div обёртка?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -481,7 +541,8 @@
   },
   {
     "group": "React",
-    "question": "Что такое фрагмент (Fragment)? Почему фрагмент лучше, чем div обёртка?",
+    "subgroup": "Lists and Keys",
+    "question": "Для чего нужен атрибут key при рендере списков?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -489,7 +550,8 @@
   },
   {
     "group": "React",
-    "question": "Для чего нужен атрибут key при рендере списков?",
+    "subgroup": "Components",
+    "question": "Разница между компонентом и контейнером?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -497,7 +559,8 @@
   },
   {
     "group": "React",
-    "question": "Разница между компонентом и контейнером?",
+    "subgroup": "Components",
+    "question": "Разница между классовым и функциональным компонентами?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -505,7 +568,8 @@
   },
   {
     "group": "React",
-    "question": "Разница между классовым и функциональным компонентами?",
+    "subgroup": "Lifecycle Methods",
+    "question": "Методы жизненного цикла компонента в React?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -513,7 +577,8 @@
   },
   {
     "group": "React",
-    "question": "Методы жизненного цикла компонента в React?",
+    "subgroup": "Portals",
+    "question": "Что такое портал (Portal)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -521,7 +586,8 @@
   },
   {
     "group": "React",
-    "question": "Что такое портал (Portal)?",
+    "subgroup": "Context",
+    "question": "Что такое контекст (Context)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -529,7 +595,8 @@
   },
   {
     "group": "React",
-    "question": "Что такое контекст (Context)?",
+    "subgroup": "Events",
+    "question": "Что такое синтетические события в React?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -537,7 +604,8 @@
   },
   {
     "group": "React",
-    "question": "Что такое синтетические события в React?",
+    "subgroup": "Hooks",
+    "question": "Что такое React хуки (Hooks)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -545,7 +613,8 @@
   },
   {
     "group": "React",
-    "question": "Что такое React хуки (Hooks)?",
+    "subgroup": "Refs",
+    "question": "Что такое React-ссылка (ref)? Как создать ссылку?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -553,7 +622,8 @@
   },
   {
     "group": "React",
-    "question": "Что такое React-ссылка (ref)? Как создать ссылку?",
+    "subgroup": "State",
+    "question": "Зачем в setState() нужно передавать функцию?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -561,7 +631,8 @@
   },
   {
     "group": "React",
-    "question": "Зачем в setState() нужно передавать функцию?",
+    "subgroup": "Lifecycle Methods",
+    "question": "Как реализовать однократное выполнение операции при начальном рендеринге?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -569,7 +640,8 @@
   },
   {
     "group": "React",
-    "question": "Как реализовать однократное выполнение операции при начальном рендеринге?",
+    "subgroup": "Hooks",
+    "question": "Разница между useEffect() и componentDidMount()?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -577,7 +649,8 @@
   },
   {
     "group": "React",
-    "question": "Разница между useEffect() и componentDidMount()?",
+    "subgroup": "Lifecycle Methods",
+    "question": "Что делает метод shouldComponentUpdate?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -585,7 +658,8 @@
   },
   {
     "group": "React",
-    "question": "Что делает метод shouldComponentUpdate?",
+    "subgroup": "Props",
+    "question": "Что такое сhildren?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -593,7 +667,8 @@
   },
   {
     "group": "React",
-    "question": "Что такое сhildren?",
+    "subgroup": "Two-Way Data Binding",
+    "question": "Как в React реализовать двустороннее связывание данных?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -601,7 +676,8 @@
   },
   {
     "group": "React",
-    "question": "Как в React реализовать двустороннее связывание данных?",
+    "subgroup": "Rendering",
+    "question": "Как отрендерить HTML код в React-компоненте?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -609,7 +685,8 @@
   },
   {
     "group": "React",
-    "question": "Как отрендерить HTML код в React-компоненте?",
+    "subgroup": "General",
+    "question": "Разница между React и ReactDOM?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -617,7 +694,8 @@
   },
   {
     "group": "React",
-    "question": "Разница между React и ReactDOM?",
+    "subgroup": "Components",
+    "question": "Что такое PureComponent?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -625,7 +703,8 @@
   },
   {
     "group": "React",
-    "question": "Что такое PureComponent?",
+    "subgroup": "Reconciliation",
+    "question": "Что такое React Reconciliation?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -633,7 +712,8 @@
   },
   {
     "group": "React",
-    "question": "Что такое React Reconciliation?",
+    "subgroup": "Element Creation",
+    "question": "Разница между createElement() и cloneElement()?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -641,15 +721,17 @@
   },
   {
     "group": "React",
-    "question": "Разница между createElement() и cloneElement()?",
+    "subgroup": "Memoization",
+    "question": "Разница между memo и useMemo?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 81
   },
   {
-    "group": "React",
-    "question": "Разница между memo и useMemo?",
+    "group": "Programming Principles",
+    "subgroup": "SOLID",
+    "question": "знаком ли с SOLID? Что можешь рассказать о нём? Соблюдаешь ли?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -657,7 +739,8 @@
   },
   {
     "group": "Programming Principles",
-    "question": "знаком ли с SOLID? Что можешь рассказать о нём? Соблюдаешь ли?",
+    "subgroup": "Design Patterns",
+    "question": "работал ли с паттернами проектирования? Все ли паттерны соблюдают SOLID? Если нет, то приведи примеры",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -665,7 +748,8 @@
   },
   {
     "group": "Programming Principles",
-    "question": "работал ли с паттернами проектирования? Все ли паттерны соблюдают SOLID? Если нет, то приведи примеры",
+    "subgroup": "Composition vs Inheritance",
+    "question": "как выбирать между композицией и наследованием?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -673,7 +757,8 @@
   },
   {
     "group": "Programming Principles",
-    "question": "как выбирать между композицией и наследованием?",
+    "subgroup": "OOP",
+    "question": "Что такое и какие основные принципы ООП?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -681,7 +766,8 @@
   },
   {
     "group": "Programming Principles",
-    "question": "Что такое и какие основные принципы ООП?",
+    "subgroup": "Composition vs Inheritance",
+    "question": "Разница между композицией и наследованием?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -689,7 +775,8 @@
   },
   {
     "group": "Programming Principles",
-    "question": "Разница между композицией и наследованием?",
+    "subgroup": "SOLID",
+    "question": "Что такое SOLID?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -697,7 +784,8 @@
   },
   {
     "group": "Programming Principles",
-    "question": "Что такое SOLID?",
+    "subgroup": "Functional Programming",
+    "question": "Что такое функциональное программирование?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -705,7 +793,8 @@
   },
   {
     "group": "Programming Principles",
-    "question": "Что такое функциональное программирование?",
+    "subgroup": "OOP vs FP",
+    "question": "Разница между ООП и ФП в JavaScript?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -713,7 +802,8 @@
   },
   {
     "group": "Programming Principles",
-    "question": "Разница между ООП и ФП в JavaScript?",
+    "subgroup": "Functions vs Methods",
+    "question": "Разница между функцией и методом?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -721,23 +811,26 @@
   },
   {
     "group": "Programming Principles",
-    "question": "Разница между функцией и методом?",
+    "subgroup": "Imperative vs Declarative",
+    "question": "Разница между императивным и декларативным подходами программирования?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 91
   },
   {
-    "group": "Programming Principles",
-    "question": "Разница между императивным и декларативным подходами программирования?",
+    "group": "Performance",
+    "subgroup": "Optimization Techniques",
+    "question": "какие способы оптимизации знаете, lighthouse",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 92
   },
   {
-    "group": "Performance",
-    "question": "какие способы оптимизации знаете, lighthouse",
+    "group": "Linux",
+    "subgroup": "General",
+    "question": "linux - опыт работы",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -745,15 +838,17 @@
   },
   {
     "group": "Linux",
-    "question": "linux - опыт работы",
+    "subgroup": "SSH",
+    "question": "как авторизоваться на удаленном сервере без пароля?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 94
   },
   {
-    "group": "Linux",
-    "question": "как авторизоваться на удаленном сервере без пароля?",
+    "group": "JavaScript",
+    "subgroup": "Animations",
+    "question": "как запустить анимацию элемента при скролле",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -761,7 +856,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "как запустить анимацию элемента при скролле",
+    "subgroup": "Data Types",
+    "question": "типы переменных, типы данных",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -769,7 +865,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "типы переменных, типы данных",
+    "subgroup": "Objects",
+    "question": "как скопировать объект?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -777,7 +874,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "как скопировать объект?",
+    "subgroup": "Objects",
+    "question": "как заблокировать изменения в объекте?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -785,7 +883,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "как заблокировать изменения в объекте?",
+    "subgroup": "Events",
+    "question": "как задать обработчик клика на элементах, которые приходят динамически",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -793,7 +892,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "как задать обработчик клика на элементах, которые приходят динамически",
+    "subgroup": "Functions",
+    "question": "что такое контекст у функций? можно ли назначить",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -801,7 +901,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "что такое контекст у функций? можно ли назначить",
+    "subgroup": "jQuery",
+    "question": "jquery, уровень знаний и опыт работы",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -809,7 +910,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "jquery, уровень знаний и опыт работы",
+    "subgroup": "ES6+",
+    "question": "es6+",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -817,7 +919,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "es6+",
+    "subgroup": "Polyfills",
+    "question": "зачем нужны полифиллы",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -825,7 +928,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "зачем нужны полифиллы",
+    "subgroup": "Promises",
+    "question": "promise - что такое и для чего",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -833,7 +937,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "promise - что такое и для чего",
+    "subgroup": "Event Loop",
+    "question": "event loop - чем Microtask Queue отличается от Task Queue? может ли setTimeout с нулевой задержкой (0 ms) быть выполнен мгновенно?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -841,7 +946,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "event loop - чем Microtask Queue отличается от Task Queue? может ли setTimeout с нулевой задержкой (0 ms) быть выполнен мгновенно?",
+    "subgroup": "Build Tools",
+    "question": "сборщики и бандлеры: webpack, vite",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -849,7 +955,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "сборщики и бандлеры: webpack, vite",
+    "subgroup": "OOP",
+    "question": "ооп - что такое абстрактный класс, как создать приватное св-во в js",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -857,7 +964,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "ооп - что такое абстрактный класс, как создать приватное св-во в js",
+    "subgroup": "Events",
+    "question": "можно ли создать свои события и подписаться на них?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -865,7 +973,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "можно ли создать свои события и подписаться на них?",
+    "subgroup": "Events",
+    "question": "в каком событии лучше регистрировать событие DOM?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -873,7 +982,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "в каком событии лучше регистрировать событие DOM?",
+    "subgroup": "Inheritance",
+    "question": "Какой тип наследования в JavaScript?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -881,7 +991,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Какой тип наследования в JavaScript?",
+    "subgroup": "Prototypes",
+    "question": "Как работает механизм прототипов в JavaScript?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -889,7 +1000,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Как работает механизм прототипов в JavaScript?",
+    "subgroup": "Objects",
+    "question": "Что такое дескрипторы свойств объектов?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -897,7 +1009,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое дескрипторы свойств объектов?",
+    "subgroup": "Objects",
+    "question": "Что такое свойства-аксессоры объектов?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -905,7 +1018,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое свойства-аксессоры объектов?",
+    "subgroup": "Data Types",
+    "question": "Типы данных в JavaScript?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -913,7 +1027,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Типы данных в JavaScript?",
+    "subgroup": "Operators",
+    "question": "Разница между == и === (нестрогое/строгое равенство)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -921,7 +1036,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Разница между == и === (нестрогое/строгое равенство)?",
+    "subgroup": "Variables",
+    "question": "Разница между var, let и const?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -929,7 +1045,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Разница между var, let и const?",
+    "subgroup": "Strict Mode",
+    "question": "Что такое Strict mode в JavaScript?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -937,7 +1054,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое Strict mode в JavaScript?",
+    "subgroup": "Operators",
+    "question": "Разница между Rest и Spread операторами?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -945,7 +1063,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Разница между Rest и Spread операторами?",
+    "subgroup": "Destructuring",
+    "question": "Что такое деструктуризация?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -953,7 +1072,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое деструктуризация?",
+    "subgroup": "Operators",
+    "question": "Расскажите об операторе Optional Chaining (?.)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -961,7 +1081,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Расскажите об операторе Optional Chaining (?.)?",
+    "subgroup": "Operators",
+    "question": "Что такое оператор нулевого слияния (??)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -969,7 +1090,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое оператор нулевого слияния (??)?",
+    "subgroup": "Operators",
+    "question": "В чём отличие оператора нулевого слияния (??) и оператора “ИЛИ” (||)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -977,7 +1099,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "В чём отличие оператора нулевого слияния (??) и оператора “ИЛИ” (||)?",
+    "subgroup": "Functions",
+    "question": "Разница между function declaration и function expression?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -985,7 +1108,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Разница между function declaration и function expression?",
+    "subgroup": "Hoisting",
+    "question": "Что такое поднятие (Hoisting)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -993,7 +1117,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое поднятие (Hoisting)?",
+    "subgroup": "Closures",
+    "question": "Что такое замыкание (Closure)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1001,7 +1126,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое замыкание (Closure)?",
+    "subgroup": "Pure Functions",
+    "question": "Что такое чистая функция?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1009,7 +1135,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое чистая функция?",
+    "subgroup": "IIFE",
+    "question": "Что такое IIFE?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1017,7 +1144,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое IIFE?",
+    "subgroup": "Functions",
+    "question": "Как передаются параметры в функцию: по ссылке или по значению?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1025,7 +1153,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Как передаются параметры в функцию: по ссылке или по значению?",
+    "subgroup": "Recursion",
+    "question": "Что такое рекурсия?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1033,7 +1162,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое рекурсия?",
+    "subgroup": "Call Stack",
+    "question": "Что значит текст max call stack size exceeded в консоли?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1041,7 +1171,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что значит текст max call stack size exceeded в консоли?",
+    "subgroup": "Functions",
+    "question": "Разница между параметром и аргументом функции?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1049,7 +1180,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Разница между параметром и аргументом функции?",
+    "subgroup": "Context",
+    "question": "Что обозначает this в JavaScript?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1057,7 +1189,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что обозначает this в JavaScript?",
+    "subgroup": "Scope",
+    "question": "Что такое область видимости (Scope)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1065,7 +1198,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое область видимости (Scope)?",
+    "subgroup": "Functions",
+    "question": "Разница между .call(), .apply() и bind()?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1073,7 +1207,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Разница между .call(), .apply() и bind()?",
+    "subgroup": "Prototypes",
+    "question": "Что такое прототип (Prototype) объекта?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1081,7 +1216,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое прототип (Prototype) объекта?",
+    "subgroup": "Type Conversion",
+    "question": "Как превратить любой тип данных в булевый? Перечислите ложные значения в JS?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1089,7 +1225,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Как превратить любой тип данных в булевый? Перечислите ложные значения в JS?",
+    "subgroup": "Objects",
+    "question": "Почему результат сравнения 2х объектов это false?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1097,7 +1234,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Почему результат сравнения 2х объектов это false?",
+    "subgroup": "Objects",
+    "question": "Разница между глубокой (deep) и поверхностной (shallow) копиями объекта? Как сделать каждую из них?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1105,7 +1243,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Разница между глубокой (deep) и поверхностной (shallow) копиями объекта? Как сделать каждую из них?",
+    "subgroup": "Arrays",
+    "question": "Как проверить, является ли значение массивом?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1113,7 +1252,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Как проверить, является ли значение массивом?",
+    "subgroup": "Type Checking",
+    "question": "Разница между typeof и instanceof?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1121,7 +1261,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Разница между typeof и instanceof?",
+    "subgroup": "Arrays",
+    "question": "Разница между .forEach() и .map()?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1129,7 +1270,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Разница между .forEach() и .map()?",
+    "subgroup": "Immutability",
+    "question": "Плюсы и минусы иммутабельности? Как достичь иммутабельности в JS?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1137,7 +1279,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Плюсы и минусы иммутабельности? Как достичь иммутабельности в JS?",
+    "subgroup": "Data Structures",
+    "question": "Что такое Set, Map, WeakMap и WeakSet?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1145,7 +1288,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое Set, Map, WeakMap и WeakSet?",
+    "subgroup": "Events",
+    "question": "Как добавить и удалить обработчик события на DOM-элемент?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1153,7 +1297,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Как добавить и удалить обработчик события на DOM-элемент?",
+    "subgroup": "Events",
+    "question": "Что такое распространение события (Event Propagation)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1161,7 +1306,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое распространение события (Event Propagation)?",
+    "subgroup": "Events",
+    "question": "Что такое делегирование событий (Event Delegation)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1169,7 +1315,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое делегирование событий (Event Delegation)?",
+    "subgroup": "Events",
+    "question": "Разница между e.preventDefault() и e.stopPropagation()?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1177,7 +1324,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Разница между e.preventDefault() и e.stopPropagation()?",
+    "subgroup": "DOM Manipulation",
+    "question": "Как динамически добавить элемент на HTML-страницу?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1185,7 +1333,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Как динамически добавить элемент на HTML-страницу?",
+    "subgroup": "DOM Manipulation",
+    "question": "Для чего используется метод .scrollIntoView()?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1193,7 +1342,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Для чего используется метод .scrollIntoView()?",
+    "subgroup": "AJAX",
+    "question": "Что такое AJAX?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1201,7 +1351,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое AJAX?",
+    "subgroup": "Event Loop",
+    "question": "Что такое цикл событий (event loop) и как он работает?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1209,7 +1360,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое цикл событий (event loop) и как он работает?",
+    "subgroup": "Event Loop",
+    "question": "Разница между микро и макрозадачами в event loop?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1217,7 +1369,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Разница между микро и макрозадачами в event loop?",
+    "subgroup": "Callbacks",
+    "question": "Что такое callback-функция? Что такое Callback Hell?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1225,7 +1378,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое callback-функция? Что такое Callback Hell?",
+    "subgroup": "Promises",
+    "question": "Что такое промисы (Promises)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1233,7 +1387,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое промисы (Promises)?",
+    "subgroup": "Promises",
+    "question": "Преимущества использовании промисов вместо колбэков?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1241,7 +1396,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Преимущества использовании промисов вместо колбэков?",
+    "subgroup": "Async/Await",
+    "question": "Что такое async/await?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1249,7 +1405,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое async/await?",
+    "subgroup": "Async/Await",
+    "question": "Как выполнить несколько асинхронных операций последовательно?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1257,7 +1414,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Как выполнить несколько асинхронных операций последовательно?",
+    "subgroup": "Functions",
+    "question": "Почему в JS функции называют объектами первого класса?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1265,7 +1423,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Почему в JS функции называют объектами первого класса?",
+    "subgroup": "Functions",
+    "question": "Что такое псевдомассив arguments?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1273,7 +1432,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое псевдомассив arguments?",
+    "subgroup": "Objects",
+    "question": "Разница между host-объектами и нативными объектами?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1281,7 +1441,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Разница между host-объектами и нативными объектами?",
+    "subgroup": "Objects",
+    "question": "Почему расширение нативных JavaScript-объектов это плохая практика?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1289,7 +1450,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Почему расширение нативных JavaScript-объектов это плохая практика?",
+    "subgroup": "Modules",
+    "question": "Каким образом можно обмениваться кодом между файлами в браузере?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1297,7 +1459,8 @@
   },
   {
     "group": "JavaScript",
-    "question": "Каким образом можно обмениваться кодом между файлами в браузере?",
+    "subgroup": "Chaining",
+    "question": "Что такое цепочка вызовов функций (chaining)? Как реализовать такой подход?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1305,15 +1468,17 @@
   },
   {
     "group": "JavaScript",
-    "question": "Что такое цепочка вызовов функций (chaining)? Как реализовать такой подход?",
+    "subgroup": "IntersectionObserver",
+    "question": "Расскажите о IntersectionObserver?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 164
   },
   {
-    "group": "JavaScript",
-    "question": "Расскажите о IntersectionObserver?",
+    "group": "HTTP",
+    "subgroup": "CORS",
+    "question": "cors",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1321,7 +1486,8 @@
   },
   {
     "group": "HTTP",
-    "question": "чем отправить, чем отправить форму авторизации? В чем разница GET/POST",
+    "subgroup": "General",
+    "question": "Что такое HTTP?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1329,7 +1495,8 @@
   },
   {
     "group": "HTTP",
-    "question": "cors",
+    "subgroup": "Methods",
+    "question": "Какие методы может иметь HTTP-запрос?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1337,7 +1504,8 @@
   },
   {
     "group": "HTTP",
-    "question": "Что такое HTTP?",
+    "subgroup": "HTTPS",
+    "question": "Разница между HTTP и HTTPS?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1345,7 +1513,8 @@
   },
   {
     "group": "HTTP",
-    "question": "Какие методы может иметь HTTP-запрос?",
+    "subgroup": "REST",
+    "question": "Что такое REST и RESTful api?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1353,7 +1522,8 @@
   },
   {
     "group": "HTTP",
-    "question": "Разница между HTTP и HTTPS?",
+    "subgroup": "WebSocket",
+    "question": "Что такое WebSocket? В чем принцип его работы?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1361,7 +1531,8 @@
   },
   {
     "group": "HTTP",
-    "question": "Что такое REST и RESTful api?",
+    "subgroup": "Methods",
+    "question": "Разница между PUT-, PATCH- и POST-запросами?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1369,7 +1540,8 @@
   },
   {
     "group": "HTTP",
-    "question": "Что такое WebSocket? В чем принцип его работы?",
+    "subgroup": "Real-Time Communication",
+    "question": "Разница между Long-Polling, Websockets и Server-Sent Events?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1377,23 +1549,26 @@
   },
   {
     "group": "HTTP",
-    "question": "Разница между PUT-, PATCH- и POST-запросами?",
+    "subgroup": "CORS",
+    "question": "Что такое CORS?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 173
   },
   {
-    "group": "HTTP",
-    "question": "Разница между Long-Polling, Websockets и Server-Sent Events?",
+    "group": "HTML",
+    "subgroup": "General",
+    "question": "Был ли опыт верстки макетов с нуля?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 174
   },
   {
-    "group": "HTTP",
-    "question": "Что такое CORS?",
+    "group": "HTML",
+    "subgroup": "General",
+    "question": "Что такое HTML и для чего он используется?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1401,7 +1576,8 @@
   },
   {
     "group": "HTML",
-    "question": "Был ли опыт верстки макетов с нуля?",
+    "subgroup": "Doctype",
+    "question": "Что такое doctype? И для чего он используется?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1409,7 +1585,8 @@
   },
   {
     "group": "HTML",
-    "question": "Что такое HTML и для чего он используется?",
+    "subgroup": "Validation",
+    "question": "Что такое валидация? И какие типы проверок HTML документа вы знаете?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1417,7 +1594,8 @@
   },
   {
     "group": "HTML",
-    "question": "Что такое doctype? И для чего он используется?",
+    "subgroup": "Buttons",
+    "question": "Какой тэг использовать для того, что бы сверстать кнопку?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1425,7 +1603,8 @@
   },
   {
     "group": "HTML",
-    "question": "Что такое валидация? И какие типы проверок HTML документа вы знаете?",
+    "subgroup": "Semantics",
+    "question": "Что такое семантика? Какие семантичные тэги вы знаете?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1433,7 +1612,8 @@
   },
   {
     "group": "HTML",
-    "question": "Какой тэг использовать для того, что бы сверстать кнопку?",
+    "subgroup": "Semantics",
+    "question": "Чем отличается <article> от <section>?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1441,7 +1621,8 @@
   },
   {
     "group": "HTML",
-    "question": "Что такое семантика? Какие семантичные тэги вы знаете?",
+    "subgroup": "Semantics",
+    "question": "Как семантически правильно сверстать картинку с подписью?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1449,7 +1630,8 @@
   },
   {
     "group": "HTML",
-    "question": "Чем отличается <article> от <section>?",
+    "subgroup": "Text Formatting",
+    "question": "Какая разница между тэгами <strong><em> и <b><i>?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1457,7 +1639,8 @@
   },
   {
     "group": "HTML",
-    "question": "Как семантически правильно сверстать картинку с подписью?",
+    "subgroup": "Input Elements",
+    "question": "Типы <input> элементов в HTML?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1465,7 +1648,8 @@
   },
   {
     "group": "HTML",
-    "question": "Какая разница между тэгами <strong><em> и <b><i>?",
+    "subgroup": "Input Elements",
+    "question": "Для чего используют атрибут inputmode?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1473,7 +1657,8 @@
   },
   {
     "group": "HTML",
-    "question": "Типы <input> элементов в HTML?",
+    "subgroup": "Data Attributes",
+    "question": "Для чего используют data-атрибуты?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1481,7 +1666,8 @@
   },
   {
     "group": "HTML",
-    "question": "Для чего используют атрибут inputmode?",
+    "subgroup": "Script Loading",
+    "question": "Разница между <script>, <script async> и <script defer>?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1489,7 +1675,8 @@
   },
   {
     "group": "HTML",
-    "question": "Для чего используют data-атрибуты?",
+    "subgroup": "Input Elements",
+    "question": "Для чего используется атрибут capture?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -1497,599 +1684,674 @@
   },
   {
     "group": "HTML",
-    "question": "Разница между <script>, <script async> и <script defer>?",
+    "subgroup": "Hiding Elements",
+    "question": "Как можно скрыть элемент разметки не используя CSS и JS?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 188
   },
   {
-    "group": "HTML",
-    "question": "Для чего используется атрибут capture?",
+    "group": "Git",
+    "subgroup": "General",
+    "question": "Что такое Git и для чего он используется?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 189
   },
   {
-    "group": "HTML",
-    "question": "Как можно скрыть элемент разметки не используя CSS и JS?",
+    "group": "Git",
+    "subgroup": "Repository",
+    "question": "Как инициализировать новый репозиторий в Git?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 190
   },
   {
-    "question": "Что такое Git и для чего он используется?",
     "group": "Git",
+    "subgroup": "Repository",
+    "question": "Что такое `.gitignore` и для чего он нужен?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 191
   },
   {
-    "question": "В чем разница между Git и другими системами контроля версий (например, SVN)?",
     "group": "Git",
+    "subgroup": "Repository",
+    "question": "Как клонировать удаленный репозиторий?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 192
   },
   {
-    "question": "Как инициализировать новый репозиторий в Git?",
     "group": "Git",
+    "subgroup": "Commits",
+    "question": "Как создать новый коммит?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 193
   },
   {
-    "question": "Что такое `.gitignore` и для чего он нужен?",
     "group": "Git",
+    "subgroup": "Commits",
+    "question": "Как просмотреть историю коммитов?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 194
   },
   {
-    "question": "Как клонировать удаленный репозиторий?",
     "group": "Git",
+    "subgroup": "Commits",
+    "question": "Что такое `git log` и какие опции можно использовать с этой командой?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 195
   },
   {
-    "question": "Как создать новый коммит?",
     "group": "Git",
+    "subgroup": "Commits",
+    "question": "Как отменить последний коммит?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 196
   },
   {
-    "question": "Как просмотреть историю коммитов?",
     "group": "Git",
+    "subgroup": "Commits",
+    "question": "Что такое `git commit --amend` и когда это используется?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 197
   },
   {
-    "question": "Что такое `git log` и какие опции можно использовать с этой командой?",
     "group": "Git",
+    "subgroup": "Branches",
+    "question": "Как создать новую ветку в Git?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 198
   },
   {
-    "question": "Как отменить последний коммит?",
     "group": "Git",
+    "subgroup": "Branches",
+    "question": "Как переключиться на другую ветку?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 199
   },
   {
-    "question": "Что такое `git commit --amend` и когда это используется?",
     "group": "Git",
+    "subgroup": "Branches",
+    "question": "Что такое `git merge` и как его использовать?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 200
   },
   {
-    "question": "Как создать новую ветку в Git?",
     "group": "Git",
+    "subgroup": "Branches",
+    "question": "В чем разница между `git merge` и `git rebase`?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 201
   },
   {
-    "question": "Как переключиться на другую ветку?",
     "group": "Git",
+    "subgroup": "Branches",
+    "question": "Как разрешить конфликты при слиянии?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 202
   },
   {
-    "question": "Что такое `git merge` и как его использовать?",
     "group": "Git",
+    "subgroup": "Remote",
+    "question": "Как добавить удаленный репозиторий?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 203
   },
   {
-    "question": "В чем разница между `git merge` и `git rebase`?",
     "group": "Git",
+    "subgroup": "Remote",
+    "question": "Как отправить изменения в удаленный репозиторий?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 204
   },
   {
-    "question": "Как разрешить конфликты при слиянии?",
     "group": "Git",
+    "subgroup": "Remote",
+    "question": "Как получить изменения из удаленного репозитория?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 205
   },
   {
-    "question": "Как добавить удаленный репозиторий?",
     "group": "Git",
+    "subgroup": "Remote",
+    "question": "Что такое `git fetch` и чем он отличается от `git pull`?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 206
   },
   {
-    "question": "Как отправить изменения в удаленный репозиторий?",
     "group": "Git",
+    "subgroup": "Remote",
+    "question": "Как удалить ветку на удаленном репозитории?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 207
   },
   {
-    "question": "Как получить изменения из удаленного репозитория?",
     "group": "Git",
+    "subgroup": "Working Directory",
+    "question": "Как отменить изменения в рабочей директории?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 208
   },
   {
-    "question": "Что такое `git fetch` и чем он отличается от `git pull`?",
     "group": "Git",
+    "subgroup": "Reset",
+    "question": "Что делает команда `git reset` и какие у нее есть опции?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 209
   },
   {
-    "question": "Как удалить ветку на удаленном репозитории?",
     "group": "Git",
+    "subgroup": "Staging Area",
+    "question": "Как отменить изменения в индексе (staging area)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 210
   },
   {
-    "question": "Как отменить изменения в рабочей директории?",
     "group": "Git",
+    "subgroup": "Stashing",
+    "question": "Что такое `git stash` и как его использовать?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 211
   },
   {
-    "question": "Что делает команда `git reset` и какие у нее есть опции?",
     "group": "Git",
+    "subgroup": "Recovery",
+    "question": "Как восстановить удаленный файл из истории Git?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 212
   },
   {
-    "question": "Как отменить изменения в индексе (staging area)?",
     "group": "Git",
+    "subgroup": "Rebase",
+    "question": "Что такое `git rebase --interactive` и как его использовать?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 213
   },
   {
-    "question": "Что такое `git stash` и как его использовать?",
     "group": "Git",
+    "subgroup": "Debugging",
+    "question": "Как использовать `git bisect` для поиска багов?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 214
   },
   {
-    "question": "Как восстановить удаленный файл из истории Git?",
     "group": "Git",
+    "subgroup": "Cherry-Pick",
+    "question": "Что такое `git cherry-pick` и когда его стоит использовать?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 215
   },
   {
-    "question": "Что такое `git rebase --interactive` и как его использовать?",
     "group": "Git",
+    "subgroup": "Hooks",
+    "question": "Как настроить хуки (hooks) в Git?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 216
   },
   {
-    "question": "Как использовать `git bisect` для поиска багов?",
     "group": "Git",
+    "subgroup": "Submodules",
+    "question": "Что такое подмодули (submodules) в Git и как с ними работать?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 217
   },
   {
-    "question": "Что такое `git cherry-pick` и когда его стоит использовать?",
     "group": "Git",
+    "subgroup": "Detached HEAD",
+    "question": "Что такое \"detached HEAD\" в Git?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 218
   },
   {
-    "question": "Как настроить хуки (hooks) в Git?",
     "group": "Git",
+    "subgroup": "Remote",
+    "question": "В чем разница между `git pull` и `git fetch`?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 219
   },
   {
-    "question": "Что такое подмодули (submodules) в Git и как с ними работать?",
     "group": "Git",
+    "subgroup": "Branches",
+    "question": "Как переименовать ветку в Git?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 220
   },
   {
-    "question": "Что такое \"detached HEAD\" в Git?",
     "group": "Git",
+    "subgroup": "Branches",
+    "question": "Как удалить локальную ветку, которая уже была слита в основную?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 221
   },
   {
-    "question": "Как Git хранит данные?",
     "group": "Git",
+    "subgroup": "Commits",
+    "question": "Как изменить сообщение последнего коммита?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 222
   },
   {
-    "question": "В чем разница между `git pull` и `git fetch`?",
     "group": "Git",
+    "subgroup": "Commits",
+    "question": "Как просмотреть изменения в конкретном файле между двумя коммитами?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 223
   },
   {
-    "question": "Что такое \"fast-forward\" в Git?",
-    "group": "Git",
+    "group": "DevOps",
+    "subgroup": "CI/CD",
+    "question": "Какие основные этапы CI/CD pipeline?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 224
   },
   {
-    "question": "Как Git обрабатывает большие файлы?",
-    "group": "Git",
+    "group": "DevOps",
+    "subgroup": "CI/CD",
+    "question": "Что такое Continuous Integration (CI) и как это помогает в разработке?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 225
   },
   {
-    "question": "Как создать и применить патч с помощью Git?",
-    "group": "Git",
+    "group": "DevOps",
+    "subgroup": "CI/CD",
+    "question": "Что такое Continuous Deployment (CD) и чем оно отличается от Continuous Delivery?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 226
   },
   {
-    "question": "Как переименовать ветку в Git?",
-    "group": "Git",
+    "group": "DevOps",
+    "subgroup": "Containerization",
+    "question": "Что такое контейнеризация и зачем она нужна?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 227
   },
   {
-    "question": "Как удалить локальную ветку, которая уже была слита в основную?",
-    "group": "Git",
+    "group": "DevOps",
+    "subgroup": "Containerization",
+    "question": "Как фронтенд-приложение может быть упаковано в Docker-контейнер?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 228
   },
   {
-    "question": "Как изменить сообщение последнего коммита?",
-    "group": "Git",
+    "group": "DevOps",
+    "subgroup": "Orchestration",
+    "question": "Что такое оркестрация контейнеров и какие инструменты для этого используются? (например, Kubernetes, Docker Swarm)",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 229
   },
   {
-    "question": "Как просмотреть изменения в конкретном файле между двумя коммитами?",
-    "group": "Git",
+    "group": "DevOps",
+    "subgroup": "CI/CD",
+    "question": "Как вы можете настроить автоматическое тестирование фронтенд-приложения в CI/CD?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 230
   },
   {
-    "group": "Frameworks",
-    "question": "был ли опыт с react / angular / vue или другими fw?",
+    "group": "DevOps",
+    "subgroup": "CI/CD",
+    "question": "Что такое статический анализ кода и как он интегрируется в CI/CD?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 231
   },
   {
-    "group": "Frameworks",
-    "question": "что такое двустороннее связывание? (v-model)",
+    "group": "DevOps",
+    "subgroup": "Dependencies",
+    "question": "Как вы можете управлять зависимостями фронтенд-приложения в процессе сборки?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 232
   },
   {
-    "group": "Frameworks",
-    "question": "что такое computed значения? можно ли их мутировать?",
+    "group": "DevOps",
+    "subgroup": "Environment Variables",
+    "question": "Что такое переменные окружения и как они используются?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 233
   },
   {
-    "group": "Frameworks",
-    "question": "зачем нужны миксины и что это такое?",
+    "group": "Development Tools",
+    "subgroup": "IDEs",
+    "question": "какими IDE пользуетесь?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 234
   },
   {
-    "group": "Frameworks",
-    "question": "ref vs reactive (composition API)",
+    "group": "CSS",
+    "subgroup": "Preprocessors",
+    "question": "Препроцессоры стилей, шаблонов",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 235
   },
   {
-    "group": "Frameworks",
-    "question": "для чего нужны slots",
+    "group": "CSS",
+    "subgroup": "Layout",
+    "question": "Float, сетки, flex, grid",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 236
   },
   {
-    "question": "Что такое DevOps и как он связан с процессом разработки?",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Spacing",
+    "question": "Какие виды отступов бывают?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 237
   },
   {
-    "question": "Какие основные этапы CI/CD pipeline?",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Margin Collapsing",
+    "question": "Схлопывание margin",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 238
   },
   {
-    "question": "Что такое Continuous Integration (CI) и как это помогает в разработке?",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Box Model",
+    "question": "box-sizing, расширение блоков засчет padding",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 239
   },
   {
-    "question": "Что такое Continuous Deployment (CD) и чем оно отличается от Continuous Delivery?",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Centering",
+    "question": "Способы разместить элемент по центру",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 240
   },
   {
-    "question": "Какие инструменты для CI/CD вы знаете? (например, Jenkins, GitLab CI, GitHub Actions)",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Responsive Design",
+    "question": "Responsive vs adaptive",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 241
   },
   {
-    "question": "Как Docker используется в DevOps?",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "BEM",
+    "question": "BEM методология",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 242
   },
   {
-    "question": "Что такое контейнеризация и зачем она нужна?",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Animations",
+    "question": "был ли опыт работы с анимациями? как анимировать элементы? will-change",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 243
   },
   {
-    "question": "Как фронтенд-приложение может быть упаковано в Docker-контейнер?",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Scroll",
+    "question": "как скрыть горизонтальный скролл?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 244
   },
   {
-    "question": "Что такое оркестрация контейнеров и какие инструменты для этого используются? (например, Kubernetes, Docker Swarm)",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Hiding Elements",
+    "question": "как скрыть элемент?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 245
   },
   {
-    "question": "Что такое инфраструктура как код (IaC) и какие инструменты вы знаете? (например, Terraform, Ansible)",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Reset",
+    "question": "как сбросить все свойства у элемента до дефолтных",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 246
   },
   {
-    "question": "Как вы понимаете мониторинг и логирование в DevOps?",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Inline Styles",
+    "question": "Что такое инлайновый стиль? Можно ли его переопределить?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 247
   },
   {
-    "question": "Какие инструменты для мониторинга вы знаете? (например, Prometheus, Grafana)",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "General",
+    "question": "Что такое CSS? И для чего он используется?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 248
   },
   {
-    "question": "Как вы можете использовать лог-файлы для отладки фронтенд-приложения?",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Styling",
+    "question": "Варианты добавление CSS стилей на страницу?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 249
   },
   {
-    "question": "Что такое балансировка нагрузки и зачем она нужна?",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Positioning",
+    "question": "Типы позиционирования в CSS?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 250
   },
   {
-    "question": "Как вы понимаете концепцию \"синего-зеленого\" развертывания?",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Box Model",
+    "question": "Блочная модель CSS?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 251
   },
   {
-    "question": "Что такое Canary-развертывание и как оно работает?",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Selectors",
+    "question": "Что такое селектор? И какие селекторы существуют?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 252
   },
   {
-    "question": "Как вы можете обеспечить безопасность в CI/CD pipeline?",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Selectors",
+    "question": "Что такое специфичность селектора? Как считать вес селектора?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 253
   },
   {
-    "question": "Что такое секреты (secrets) и как их правильно хранить?",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Reset vs Normalize",
+    "question": "Разница между Reset.css и Normalize.css?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 254
   },
   {
-    "question": "Как вы можете оптимизировать сборку и деплой фронтенд-приложения?",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Spacing",
+    "question": "Разница между margin и padding?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 255
   },
   {
-    "question": "Что такое кэширование и как оно используется в DevOps?",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Vendor Prefixes",
+    "question": "Что такое вендорные префиксы? И для чего они используются?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 256
   },
   {
-    "question": "Как вы можете настроить автоматическое тестирование фронтенд-приложения в CI/CD?",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Margin Collapsing",
+    "question": "Что такое схлопывание границ (margin collapsing)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 257
   },
   {
-    "question": "Что такое статический анализ кода и как он интегрируется в CI/CD?",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Animations",
+    "question": "Какие CSS-свойства используются для создания анимаций и плавных переходов?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 258
   },
   {
-    "question": "Как вы можете управлять зависимостями фронтенд-приложения в процессе сборки?",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Z-Index",
+    "question": "Что такое z-index? Как формируется контекст наложения?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 259
   },
   {
-    "question": "Что такое переменные окружения и как они используются в DevOps?",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "Preprocessors",
+    "question": "Что такое CSS препроцессор?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 260
   },
   {
-    "question": "Как вы можете откатить (rollback) деплой, если что-то пошло не так?",
-    "group": "DevOps",
+    "group": "CSS",
+    "subgroup": "BEM",
+    "question": "Плюсы и минусы методологии БЭМ?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
     "id": 261
   },
   {
-    "group": "Development Tools",
-    "question": "какими IDE пользуетесь?",
+    "group": "CSS",
+    "subgroup": "Global Keywords",
+    "question": "Глобальные ключевые слова в CSS?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -2097,7 +2359,8 @@
   },
   {
     "group": "CSS",
-    "question": "Препроцессоры стилей, шаблонов",
+    "subgroup": "Feature Detection",
+    "question": "Как с помощью CSS определить, поддерживается ли свойство в браузере?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
@@ -2105,242 +2368,11 @@
   },
   {
     "group": "CSS",
-    "question": "Float, сетки, flex, grid",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 264
-  },
-  {
-    "group": "CSS",
-    "question": "Какие виды отступов бывают?",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 265
-  },
-  {
-    "group": "CSS",
-    "question": "Схлопывание margin",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 266
-  },
-  {
-    "group": "CSS",
-    "question": "box-sizing, расширение блоков засчет padding",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 267
-  },
-  {
-    "group": "CSS",
-    "question": "Способы разместить элемент по центру",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 268
-  },
-  {
-    "group": "CSS",
-    "question": "Responsive vs adaptive",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 269
-  },
-  {
-    "group": "CSS",
-    "question": "BEM методология",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 270
-  },
-  {
-    "group": "CSS",
-    "question": "был ли опыт работы с анимациями? как анимировать элементы? will-change",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 271
-  },
-  {
-    "group": "CSS",
-    "question": "как скрыть горизонтальный скролл?",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 272
-  },
-  {
-    "group": "CSS",
-    "question": "как скрыть элемент?",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 273
-  },
-  {
-    "group": "CSS",
-    "question": "как сбросить все свойства у элемента до дефолтных",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 274
-  },
-  {
-    "group": "CSS",
-    "question": "Что такое инлайновый стиль? Можно ли его переопределить?",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 275
-  },
-  {
-    "group": "CSS",
-    "question": "CSS",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 276
-  },
-  {
-    "group": "CSS",
-    "question": "Что такое CSS? И для чего он используется?",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 277
-  },
-  {
-    "group": "CSS",
-    "question": "Варианты добавление CSS стилей на страницу?",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 278
-  },
-  {
-    "group": "CSS",
-    "question": "Типы позиционирования в CSS?",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 279
-  },
-  {
-    "group": "CSS",
-    "question": "Блочная модель CSS?",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 280
-  },
-  {
-    "group": "CSS",
-    "question": "Что такое селектор? И какие селекторы существуют?",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 281
-  },
-  {
-    "group": "CSS",
-    "question": "Что такое специфичность селектора? Как считать вес селектора?",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 282
-  },
-  {
-    "group": "CSS",
-    "question": "Разница между Reset.css и Normalize.css?",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 283
-  },
-  {
-    "group": "CSS",
-    "question": "Разница между margin и padding?",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 284
-  },
-  {
-    "group": "CSS",
-    "question": "Что такое вендорные префиксы? И для чего они используются?",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 285
-  },
-  {
-    "group": "CSS",
-    "question": "Что такое схлопывание границ (margin collapsing)?",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 286
-  },
-  {
-    "group": "CSS",
-    "question": "Какие CSS-свойства используются для создания анимаций и плавных переходов?",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 287
-  },
-  {
-    "group": "CSS",
-    "question": "Что такое z-index? Как формируется контекст наложения?",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 288
-  },
-  {
-    "group": "CSS",
-    "question": "Что такое CSS препроцессор?",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 289
-  },
-  {
-    "group": "CSS",
-    "question": "Плюсы и минусы методологии БЭМ?",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 290
-  },
-  {
-    "group": "CSS",
-    "question": "Глобальные ключевые слова в CSS?",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 291
-  },
-  {
-    "group": "CSS",
-    "question": "Как с помощью CSS определить, поддерживается ли свойство в браузере?",
-    "description": "",
-    "rate": "default",
-    "lvl": "junior",
-    "id": 292
-  },
-  {
-    "group": "CSS",
+    "subgroup": "Stacking Order",
     "question": "Порядок наложения элементов в CSS (Stacking Order)?",
     "description": "",
     "rate": "default",
     "lvl": "junior",
-    "id": 293
+    "id": 264
   }
 ]
