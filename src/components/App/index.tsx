@@ -1,11 +1,11 @@
-import { BrowserRouter, Route, Routes } from "react-router";
+import { HashRouter, Route, Routes } from "react-router";
 import Layout from "../Layout";
 import Questions from "../Questions";
 import Presets from "../Presets";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route element={<Layout />}>
           <Route path={"/"} element={<div>Home</div>} />
@@ -15,7 +15,7 @@ const App = () => {
         </Route>
       </Routes>
       <h1 className="text-3xl font-bold underline">Hello world!</h1>;
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
