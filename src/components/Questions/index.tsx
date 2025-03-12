@@ -6,10 +6,6 @@ const Questions = () => {
   const [selectedGroup, setSelectedGroup] = useState<string[]>([]);
   const [open, setOpen] = useState(false);
 
-  // console.log(
-  //   JSON.stringify(theory.map((item, index) => ({ ...item, id: index + 1 }))),
-  // );
-
   const resetData = () => {
     localStorage.removeItem("theory");
     localStorage.removeItem("group");
