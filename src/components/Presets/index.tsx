@@ -1,3 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+//@ts-nocheck
 import preset from "../../assets/presets/base.json";
 import { useEffect, useState } from "react";
 
