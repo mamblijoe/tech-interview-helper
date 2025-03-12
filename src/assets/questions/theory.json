@@ -5,6 +5,7 @@
     "question": "основные стратегии рендеринга (CSR, SSR, SSG, ISG)",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 1
   },
@@ -14,6 +15,7 @@
     "question": "bff паттерн",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "middle",
     "id": 2
   },
@@ -23,6 +25,7 @@
     "question": "Что такое кроссбраузерность?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "senior",
     "id": 3
   },
@@ -32,6 +35,7 @@
     "question": "Что такое поток документа?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 4
   },
@@ -41,6 +45,7 @@
     "question": "Разница между cookie, sessionStorage и localStorage?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 5
   },
@@ -50,6 +55,7 @@
     "question": "Что такое History API в браузере?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 6
   },
@@ -59,6 +65,7 @@
     "question": "Разница между preload, prefetch, preconnect и prerender?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 7
   },
@@ -68,6 +75,7 @@
     "question": "Разница между layout, painting и compositing?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 8
   },
@@ -77,6 +85,7 @@
     "question": "Что такое Progressive Web Application (PWA)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 9
   },
@@ -86,6 +95,7 @@
     "question": "Что такое Веб-компоненты?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 10
   },
@@ -95,6 +105,7 @@
     "question": "Почему хорошей практикой считается располагать <link> для подключения CSS стилей внутри тэга <head>, а <script> для подключения JS ставить перед закрывающимся тэгом </body>?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 11
   },
@@ -104,6 +115,7 @@
     "question": "ui библиотеки - какие использовали",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 12
   },
@@ -113,6 +125,7 @@
     "question": "typescript - опыт работы",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 13
   },
@@ -122,6 +135,7 @@
     "question": "чем отличаются типы от интерфейсов",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 14
   },
@@ -131,6 +145,7 @@
     "question": "unknown vs any",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 15
   },
@@ -140,6 +155,7 @@
     "question": "Что такое TypeScript?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 16
   },
@@ -149,6 +165,7 @@
     "question": "Типы в TypeScript?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 17
   },
@@ -158,6 +175,7 @@
     "question": "Разница между типом (type) и интерфейсом (interface)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 18
   },
@@ -167,6 +185,7 @@
     "question": "Разница между абстрактным классом (abstract class) и интерфейсом (interface)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 19
   },
@@ -176,6 +195,7 @@
     "question": "Как TypeScript поддерживает необязательные и дефолтные параметры в функции?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 20
   },
@@ -185,6 +205,7 @@
     "question": "Что такое перечисление (enum)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 21
   },
@@ -194,6 +215,7 @@
     "question": "Разница между типами “Объединение” (|) и “Пересечение” (&)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 22
   },
@@ -203,6 +225,7 @@
     "question": "Что такое общие типы (generic) в TypeScript?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 23
   },
@@ -212,6 +235,7 @@
     "question": "Разница между типами void, never и unknown?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 24
   },
@@ -221,6 +245,7 @@
     "question": "Модификаторы доступа в TypeScript?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 25
   },
@@ -230,6 +255,7 @@
     "question": "Что такое декораторы?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 26
   },
@@ -239,6 +265,7 @@
     "question": "стейт менеджмент - redux/mobx? для чего нужны сторы?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 27
   },
@@ -248,6 +275,7 @@
     "question": "pinia / vuex, для чего нужны сторы",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 28
   },
@@ -257,6 +285,7 @@
     "question": "Что такое Redux? Ключевые принципы Redux?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 29
   },
@@ -266,6 +295,7 @@
     "question": "Что такое редьюсер (Reducer)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 30
   },
@@ -275,6 +305,7 @@
     "question": "Разница между React State и Redux State?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 31
   },
@@ -284,6 +315,7 @@
     "question": "Что такое middleware, для каких целей используют и какие существуют реализации в экосистеме redux?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 32
   },
@@ -293,6 +325,7 @@
     "question": "Как выглядит поток данных в Redux-приложении?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 33
   },
@@ -302,6 +335,7 @@
     "question": "Плюсы и минусы Redux?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 34
   },
@@ -311,6 +345,7 @@
     "question": "Разница между идентификацией, аутентификацией, авторизацией?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 35
   },
@@ -320,6 +355,7 @@
     "question": "Что такое Content Security Policy (CSP)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 36
   },
@@ -329,6 +365,7 @@
     "question": "как выполнить функцию при монтировании / размонтировании компонента?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 37
   },
@@ -338,6 +375,7 @@
     "question": "в чем отличие useEffect от useLayoutEffect",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 38
   },
@@ -347,6 +385,7 @@
     "question": "для чего нужен children prop",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 39
   },
@@ -356,6 +395,7 @@
     "question": "компоненты можно рендерить только в корневом dom элементе?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 40
   },
@@ -365,6 +405,7 @@
     "question": "для чего нужен useCallback",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 41
   },
@@ -374,6 +415,7 @@
     "question": "в каких случаях компонент может перерендериться - ( + батчинг сетстейта)",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 42
   },
@@ -383,6 +425,7 @@
     "question": "что такое prop drilling и как от него избавиться",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 43
   },
@@ -392,6 +435,7 @@
     "question": "обновление контекста = обновление всего дерева?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 44
   },
@@ -401,6 +445,7 @@
     "question": "cерверные компоненты",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 45
   },
@@ -410,6 +455,7 @@
     "question": "что такое vdom, при рендере компонента перерисовывается весь шаблон?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 46
   },
@@ -419,6 +465,7 @@
     "question": "какие есть основные подходы для создания компонентов? (Options, Composition)",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 47
   },
@@ -428,6 +475,7 @@
     "question": "жизненный цикл компонента",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 48
   },
@@ -437,6 +485,7 @@
     "question": "prop drilling (provide / inject)",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 49
   },
@@ -446,6 +495,7 @@
     "question": "как перехватить ошибку в компоненте?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 50
   },
@@ -455,6 +505,7 @@
     "question": "что такое async components",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 51
   },
@@ -464,6 +515,7 @@
     "question": "как переиспользовать какую-либо логику? писали когда-нибудь свои хуки? (composables)",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 52
   },
@@ -473,6 +525,7 @@
     "question": "Что такое React?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 53
   },
@@ -482,6 +535,7 @@
     "question": "Является ли React реактивным?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 54
   },
@@ -491,6 +545,7 @@
     "question": "Что такое Virtual DOM? Как он работает с React?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 55
   },
@@ -500,6 +555,7 @@
     "question": "Что такое JSX?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 56
   },
@@ -509,6 +565,7 @@
     "question": "Что такое строгий режим в React? Его преимущества?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 57
   },
@@ -518,6 +575,7 @@
     "question": "Разница между состоянием(state) и пропсами(props)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 58
   },
@@ -527,6 +585,7 @@
     "question": "Что такое «бурение пропсов» (Prop Drilling)? Как его избежать?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 59
   },
@@ -536,6 +595,7 @@
     "question": "Что такое фрагмент (Fragment)? Почему фрагмент лучше, чем div обёртка?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 60
   },
@@ -545,6 +605,7 @@
     "question": "Для чего нужен атрибут key при рендере списков?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 61
   },
@@ -554,6 +615,7 @@
     "question": "Разница между компонентом и контейнером?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 62
   },
@@ -563,6 +625,7 @@
     "question": "Разница между классовым и функциональным компонентами?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 63
   },
@@ -572,6 +635,7 @@
     "question": "Методы жизненного цикла компонента в React?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 64
   },
@@ -581,6 +645,7 @@
     "question": "Что такое портал (Portal)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 65
   },
@@ -590,6 +655,7 @@
     "question": "Что такое контекст (Context)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 66
   },
@@ -599,6 +665,7 @@
     "question": "Что такое синтетические события в React?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 67
   },
@@ -608,6 +675,7 @@
     "question": "Что такое React хуки (Hooks)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 68
   },
@@ -617,6 +685,7 @@
     "question": "Что такое React-ссылка (ref)? Как создать ссылку?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 69
   },
@@ -626,6 +695,7 @@
     "question": "Зачем в setState() нужно передавать функцию?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 70
   },
@@ -635,6 +705,7 @@
     "question": "Как реализовать однократное выполнение операции при начальном рендеринге?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 71
   },
@@ -644,6 +715,7 @@
     "question": "Разница между useEffect() и componentDidMount()?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 72
   },
@@ -653,6 +725,7 @@
     "question": "Что делает метод shouldComponentUpdate?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 73
   },
@@ -662,6 +735,7 @@
     "question": "Что такое сhildren?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 74
   },
@@ -671,6 +745,7 @@
     "question": "Как в React реализовать двустороннее связывание данных?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 75
   },
@@ -680,6 +755,7 @@
     "question": "Как отрендерить HTML код в React-компоненте?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 76
   },
@@ -689,6 +765,7 @@
     "question": "Разница между React и ReactDOM?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 77
   },
@@ -698,6 +775,7 @@
     "question": "Что такое PureComponent?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 78
   },
@@ -707,6 +785,7 @@
     "question": "Что такое React Reconciliation?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 79
   },
@@ -716,6 +795,7 @@
     "question": "Разница между createElement() и cloneElement()?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 80
   },
@@ -725,6 +805,7 @@
     "question": "Разница между memo и useMemo?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 81
   },
@@ -734,6 +815,7 @@
     "question": "знаком ли с SOLID? Что можешь рассказать о нём? Соблюдаешь ли?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 82
   },
@@ -743,6 +825,7 @@
     "question": "работал ли с паттернами проектирования? Все ли паттерны соблюдают SOLID? Если нет, то приведи примеры",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 83
   },
@@ -752,6 +835,7 @@
     "question": "как выбирать между композицией и наследованием?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 84
   },
@@ -761,6 +845,7 @@
     "question": "Что такое и какие основные принципы ООП?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 85
   },
@@ -770,6 +855,7 @@
     "question": "Разница между композицией и наследованием?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 86
   },
@@ -779,6 +865,7 @@
     "question": "Что такое SOLID?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 87
   },
@@ -788,6 +875,7 @@
     "question": "Что такое функциональное программирование?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 88
   },
@@ -797,6 +885,7 @@
     "question": "Разница между ООП и ФП в JavaScript?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 89
   },
@@ -806,6 +895,7 @@
     "question": "Разница между функцией и методом?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 90
   },
@@ -815,6 +905,7 @@
     "question": "Разница между императивным и декларативным подходами программирования?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 91
   },
@@ -824,6 +915,7 @@
     "question": "какие способы оптимизации знаете, lighthouse",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 92
   },
@@ -833,6 +925,7 @@
     "question": "linux - опыт работы",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 93
   },
@@ -842,6 +935,7 @@
     "question": "как авторизоваться на удаленном сервере без пароля?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 94
   },
@@ -851,6 +945,7 @@
     "question": "как запустить анимацию элемента при скролле",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 95
   },
@@ -860,6 +955,7 @@
     "question": "типы переменных, типы данных",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 96
   },
@@ -869,6 +965,7 @@
     "question": "как скопировать объект?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 97
   },
@@ -878,6 +975,7 @@
     "question": "как заблокировать изменения в объекте?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 98
   },
@@ -887,6 +985,7 @@
     "question": "как задать обработчик клика на элементах, которые приходят динамически",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 99
   },
@@ -896,6 +995,7 @@
     "question": "что такое контекст у функций? можно ли назначить",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 100
   },
@@ -905,6 +1005,7 @@
     "question": "jquery, уровень знаний и опыт работы",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 101
   },
@@ -914,6 +1015,7 @@
     "question": "es6+",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 102
   },
@@ -923,6 +1025,7 @@
     "question": "зачем нужны полифиллы",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 103
   },
@@ -932,6 +1035,7 @@
     "question": "promise - что такое и для чего",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 104
   },
@@ -941,6 +1045,7 @@
     "question": "event loop - чем Microtask Queue отличается от Task Queue? может ли setTimeout с нулевой задержкой (0 ms) быть выполнен мгновенно?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 105
   },
@@ -950,6 +1055,7 @@
     "question": "сборщики и бандлеры: webpack, vite",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 106
   },
@@ -959,6 +1065,7 @@
     "question": "ооп - что такое абстрактный класс, как создать приватное св-во в js",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 107
   },
@@ -968,6 +1075,7 @@
     "question": "можно ли создать свои события и подписаться на них?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 108
   },
@@ -977,6 +1085,7 @@
     "question": "в каком событии лучше регистрировать событие DOM?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 109
   },
@@ -986,6 +1095,7 @@
     "question": "Какой тип наследования в JavaScript?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 110
   },
@@ -995,6 +1105,7 @@
     "question": "Как работает механизм прототипов в JavaScript?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 111
   },
@@ -1004,6 +1115,7 @@
     "question": "Что такое дескрипторы свойств объектов?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 112
   },
@@ -1013,6 +1125,7 @@
     "question": "Что такое свойства-аксессоры объектов?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 113
   },
@@ -1022,6 +1135,7 @@
     "question": "Типы данных в JavaScript?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 114
   },
@@ -1031,6 +1145,7 @@
     "question": "Разница между == и === (нестрогое/строгое равенство)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 115
   },
@@ -1040,6 +1155,7 @@
     "question": "Разница между var, let и const?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 116
   },
@@ -1049,6 +1165,7 @@
     "question": "Что такое Strict mode в JavaScript?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 117
   },
@@ -1058,6 +1175,7 @@
     "question": "Разница между Rest и Spread операторами?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 118
   },
@@ -1067,6 +1185,7 @@
     "question": "Что такое деструктуризация?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 119
   },
@@ -1076,6 +1195,7 @@
     "question": "Расскажите об операторе Optional Chaining (?.)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 120
   },
@@ -1085,6 +1205,7 @@
     "question": "Что такое оператор нулевого слияния (??)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 121
   },
@@ -1094,6 +1215,7 @@
     "question": "В чём отличие оператора нулевого слияния (??) и оператора “ИЛИ” (||)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 122
   },
@@ -1103,6 +1225,7 @@
     "question": "Разница между function declaration и function expression?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 123
   },
@@ -1112,6 +1235,7 @@
     "question": "Что такое поднятие (Hoisting)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 124
   },
@@ -1121,6 +1245,7 @@
     "question": "Что такое замыкание (Closure)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 125
   },
@@ -1130,6 +1255,7 @@
     "question": "Что такое чистая функция?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 126
   },
@@ -1139,6 +1265,7 @@
     "question": "Что такое IIFE?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 127
   },
@@ -1148,6 +1275,7 @@
     "question": "Как передаются параметры в функцию: по ссылке или по значению?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 128
   },
@@ -1157,6 +1285,7 @@
     "question": "Что такое рекурсия?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 129
   },
@@ -1166,6 +1295,7 @@
     "question": "Что значит текст max call stack size exceeded в консоли?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 130
   },
@@ -1175,6 +1305,7 @@
     "question": "Разница между параметром и аргументом функции?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 131
   },
@@ -1184,6 +1315,7 @@
     "question": "Что обозначает this в JavaScript?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 132
   },
@@ -1193,6 +1325,7 @@
     "question": "Что такое область видимости (Scope)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 133
   },
@@ -1202,6 +1335,7 @@
     "question": "Разница между .call(), .apply() и bind()?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 134
   },
@@ -1211,6 +1345,7 @@
     "question": "Что такое прототип (Prototype) объекта?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 135
   },
@@ -1220,6 +1355,7 @@
     "question": "Как превратить любой тип данных в булевый? Перечислите ложные значения в JS?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 136
   },
@@ -1229,6 +1365,7 @@
     "question": "Почему результат сравнения 2х объектов это false?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 137
   },
@@ -1238,6 +1375,7 @@
     "question": "Разница между глубокой (deep) и поверхностной (shallow) копиями объекта? Как сделать каждую из них?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 138
   },
@@ -1247,6 +1385,7 @@
     "question": "Как проверить, является ли значение массивом?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 139
   },
@@ -1256,6 +1395,7 @@
     "question": "Разница между typeof и instanceof?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 140
   },
@@ -1265,6 +1405,7 @@
     "question": "Разница между .forEach() и .map()?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 141
   },
@@ -1274,6 +1415,7 @@
     "question": "Плюсы и минусы иммутабельности? Как достичь иммутабельности в JS?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 142
   },
@@ -1283,6 +1425,7 @@
     "question": "Что такое Set, Map, WeakMap и WeakSet?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 143
   },
@@ -1292,6 +1435,7 @@
     "question": "Как добавить и удалить обработчик события на DOM-элемент?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 144
   },
@@ -1301,6 +1445,7 @@
     "question": "Что такое распространение события (Event Propagation)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 145
   },
@@ -1310,6 +1455,7 @@
     "question": "Что такое делегирование событий (Event Delegation)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 146
   },
@@ -1319,6 +1465,7 @@
     "question": "Разница между e.preventDefault() и e.stopPropagation()?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 147
   },
@@ -1328,6 +1475,7 @@
     "question": "Как динамически добавить элемент на HTML-страницу?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 148
   },
@@ -1337,6 +1485,7 @@
     "question": "Для чего используется метод .scrollIntoView()?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 149
   },
@@ -1346,6 +1495,7 @@
     "question": "Что такое AJAX?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 150
   },
@@ -1355,6 +1505,7 @@
     "question": "Что такое цикл событий (event loop) и как он работает?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 151
   },
@@ -1364,6 +1515,7 @@
     "question": "Разница между микро и макрозадачами в event loop?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 152
   },
@@ -1373,6 +1525,7 @@
     "question": "Что такое callback-функция? Что такое Callback Hell?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 153
   },
@@ -1382,6 +1535,7 @@
     "question": "Что такое промисы (Promises)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 154
   },
@@ -1391,6 +1545,7 @@
     "question": "Преимущества использовании промисов вместо колбэков?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 155
   },
@@ -1400,6 +1555,7 @@
     "question": "Что такое async/await?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 156
   },
@@ -1409,6 +1565,7 @@
     "question": "Как выполнить несколько асинхронных операций последовательно?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 157
   },
@@ -1418,6 +1575,7 @@
     "question": "Почему в JS функции называют объектами первого класса?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 158
   },
@@ -1427,6 +1585,7 @@
     "question": "Что такое псевдомассив arguments?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 159
   },
@@ -1436,6 +1595,7 @@
     "question": "Разница между host-объектами и нативными объектами?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 160
   },
@@ -1445,6 +1605,7 @@
     "question": "Почему расширение нативных JavaScript-объектов это плохая практика?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 161
   },
@@ -1454,6 +1615,7 @@
     "question": "Каким образом можно обмениваться кодом между файлами в браузере?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 162
   },
@@ -1463,6 +1625,7 @@
     "question": "Что такое цепочка вызовов функций (chaining)? Как реализовать такой подход?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 163
   },
@@ -1472,6 +1635,7 @@
     "question": "Расскажите о IntersectionObserver?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 164
   },
@@ -1481,6 +1645,7 @@
     "question": "cors",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 165
   },
@@ -1490,6 +1655,7 @@
     "question": "Что такое HTTP?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 166
   },
@@ -1499,6 +1665,7 @@
     "question": "Какие методы может иметь HTTP-запрос?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 167
   },
@@ -1508,6 +1675,7 @@
     "question": "Разница между HTTP и HTTPS?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 168
   },
@@ -1517,6 +1685,7 @@
     "question": "Что такое REST и RESTful api?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 169
   },
@@ -1526,6 +1695,7 @@
     "question": "Что такое WebSocket? В чем принцип его работы?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 170
   },
@@ -1535,6 +1705,7 @@
     "question": "Разница между PUT-, PATCH- и POST-запросами?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 171
   },
@@ -1544,6 +1715,7 @@
     "question": "Разница между Long-Polling, Websockets и Server-Sent Events?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 172
   },
@@ -1553,6 +1725,7 @@
     "question": "Что такое CORS?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 173
   },
@@ -1562,6 +1735,7 @@
     "question": "Был ли опыт верстки макетов с нуля?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 174
   },
@@ -1571,6 +1745,7 @@
     "question": "Что такое HTML и для чего он используется?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 175
   },
@@ -1580,6 +1755,7 @@
     "question": "Что такое doctype? И для чего он используется?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 176
   },
@@ -1589,6 +1765,7 @@
     "question": "Что такое валидация? И какие типы проверок HTML документа вы знаете?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 177
   },
@@ -1598,6 +1775,7 @@
     "question": "Какой тэг использовать для того, что бы сверстать кнопку?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 178
   },
@@ -1607,6 +1785,7 @@
     "question": "Что такое семантика? Какие семантичные тэги вы знаете?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 179
   },
@@ -1616,6 +1795,7 @@
     "question": "Чем отличается <article> от <section>?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 180
   },
@@ -1625,6 +1805,7 @@
     "question": "Как семантически правильно сверстать картинку с подписью?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 181
   },
@@ -1634,6 +1815,7 @@
     "question": "Какая разница между тэгами <strong><em> и <b><i>?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 182
   },
@@ -1643,6 +1825,7 @@
     "question": "Типы <input> элементов в HTML?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 183
   },
@@ -1652,6 +1835,7 @@
     "question": "Для чего используют атрибут inputmode?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 184
   },
@@ -1661,6 +1845,7 @@
     "question": "Для чего используют data-атрибуты?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 185
   },
@@ -1670,6 +1855,7 @@
     "question": "Разница между <script>, <script async> и <script defer>?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 186
   },
@@ -1679,6 +1865,7 @@
     "question": "Для чего используется атрибут capture?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 187
   },
@@ -1688,6 +1875,7 @@
     "question": "Как можно скрыть элемент разметки не используя CSS и JS?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 188
   },
@@ -1697,6 +1885,7 @@
     "question": "Что такое Git и для чего он используется?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 189
   },
@@ -1706,6 +1895,7 @@
     "question": "Как инициализировать новый репозиторий в Git?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 190
   },
@@ -1715,6 +1905,7 @@
     "question": "Что такое `.gitignore` и для чего он нужен?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 191
   },
@@ -1724,6 +1915,7 @@
     "question": "Как клонировать удаленный репозиторий?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 192
   },
@@ -1733,6 +1925,7 @@
     "question": "Как создать новый коммит?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 193
   },
@@ -1742,6 +1935,7 @@
     "question": "Как просмотреть историю коммитов?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 194
   },
@@ -1751,6 +1945,7 @@
     "question": "Что такое `git log` и какие опции можно использовать с этой командой?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 195
   },
@@ -1760,6 +1955,7 @@
     "question": "Как отменить последний коммит?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 196
   },
@@ -1769,6 +1965,7 @@
     "question": "Что такое `git commit --amend` и когда это используется?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 197
   },
@@ -1778,6 +1975,7 @@
     "question": "Как создать новую ветку в Git?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 198
   },
@@ -1787,6 +1985,7 @@
     "question": "Как переключиться на другую ветку?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 199
   },
@@ -1796,6 +1995,7 @@
     "question": "Что такое `git merge` и как его использовать?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 200
   },
@@ -1805,6 +2005,7 @@
     "question": "В чем разница между `git merge` и `git rebase`?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 201
   },
@@ -1814,6 +2015,7 @@
     "question": "Как разрешить конфликты при слиянии?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 202
   },
@@ -1823,6 +2025,7 @@
     "question": "Как добавить удаленный репозиторий?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 203
   },
@@ -1832,6 +2035,7 @@
     "question": "Как отправить изменения в удаленный репозиторий?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 204
   },
@@ -1841,6 +2045,7 @@
     "question": "Как получить изменения из удаленного репозитория?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 205
   },
@@ -1850,6 +2055,7 @@
     "question": "Что такое `git fetch` и чем он отличается от `git pull`?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 206
   },
@@ -1859,6 +2065,7 @@
     "question": "Как удалить ветку на удаленном репозитории?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 207
   },
@@ -1868,6 +2075,7 @@
     "question": "Как отменить изменения в рабочей директории?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 208
   },
@@ -1877,6 +2085,7 @@
     "question": "Что делает команда `git reset` и какие у нее есть опции?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 209
   },
@@ -1886,6 +2095,7 @@
     "question": "Как отменить изменения в индексе (staging area)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 210
   },
@@ -1895,6 +2105,7 @@
     "question": "Что такое `git stash` и как его использовать?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 211
   },
@@ -1904,6 +2115,7 @@
     "question": "Как восстановить удаленный файл из истории Git?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 212
   },
@@ -1913,6 +2125,7 @@
     "question": "Что такое `git rebase --interactive` и как его использовать?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 213
   },
@@ -1922,6 +2135,7 @@
     "question": "Как использовать `git bisect` для поиска багов?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 214
   },
@@ -1931,6 +2145,7 @@
     "question": "Что такое `git cherry-pick` и когда его стоит использовать?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 215
   },
@@ -1940,6 +2155,7 @@
     "question": "Как настроить хуки (hooks) в Git?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 216
   },
@@ -1949,6 +2165,7 @@
     "question": "Что такое подмодули (submodules) в Git и как с ними работать?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 217
   },
@@ -1958,6 +2175,7 @@
     "question": "Что такое \"detached HEAD\" в Git?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 218
   },
@@ -1967,6 +2185,7 @@
     "question": "В чем разница между `git pull` и `git fetch`?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 219
   },
@@ -1976,6 +2195,7 @@
     "question": "Как переименовать ветку в Git?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 220
   },
@@ -1985,6 +2205,7 @@
     "question": "Как удалить локальную ветку, которая уже была слита в основную?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 221
   },
@@ -1994,6 +2215,7 @@
     "question": "Как изменить сообщение последнего коммита?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 222
   },
@@ -2003,6 +2225,7 @@
     "question": "Как просмотреть изменения в конкретном файле между двумя коммитами?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 223
   },
@@ -2012,6 +2235,7 @@
     "question": "Какие основные этапы CI/CD pipeline?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 224
   },
@@ -2021,6 +2245,7 @@
     "question": "Что такое Continuous Integration (CI) и как это помогает в разработке?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 225
   },
@@ -2030,6 +2255,7 @@
     "question": "Что такое Continuous Deployment (CD) и чем оно отличается от Continuous Delivery?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 226
   },
@@ -2039,6 +2265,7 @@
     "question": "Что такое контейнеризация и зачем она нужна?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 227
   },
@@ -2048,6 +2275,7 @@
     "question": "Как фронтенд-приложение может быть упаковано в Docker-контейнер?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 228
   },
@@ -2057,6 +2285,7 @@
     "question": "Что такое оркестрация контейнеров и какие инструменты для этого используются? (например, Kubernetes, Docker Swarm)",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 229
   },
@@ -2066,6 +2295,7 @@
     "question": "Как вы можете настроить автоматическое тестирование фронтенд-приложения в CI/CD?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 230
   },
@@ -2075,6 +2305,7 @@
     "question": "Что такое статический анализ кода и как он интегрируется в CI/CD?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 231
   },
@@ -2084,6 +2315,7 @@
     "question": "Как вы можете управлять зависимостями фронтенд-приложения в процессе сборки?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 232
   },
@@ -2093,6 +2325,7 @@
     "question": "Что такое переменные окружения и как они используются?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 233
   },
@@ -2102,6 +2335,7 @@
     "question": "какими IDE пользуетесь?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 234
   },
@@ -2111,6 +2345,7 @@
     "question": "Препроцессоры стилей, шаблонов",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 235
   },
@@ -2120,6 +2355,7 @@
     "question": "Float, сетки, flex, grid",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 236
   },
@@ -2129,6 +2365,7 @@
     "question": "Какие виды отступов бывают?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 237
   },
@@ -2138,6 +2375,7 @@
     "question": "Схлопывание margin",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 238
   },
@@ -2147,6 +2385,7 @@
     "question": "box-sizing, расширение блоков засчет padding",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 239
   },
@@ -2156,6 +2395,7 @@
     "question": "Способы разместить элемент по центру",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 240
   },
@@ -2165,6 +2405,7 @@
     "question": "Responsive vs adaptive",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 241
   },
@@ -2174,6 +2415,7 @@
     "question": "BEM методология",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 242
   },
@@ -2183,6 +2425,7 @@
     "question": "был ли опыт работы с анимациями? как анимировать элементы? will-change",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 243
   },
@@ -2192,6 +2435,7 @@
     "question": "как скрыть горизонтальный скролл?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 244
   },
@@ -2201,6 +2445,7 @@
     "question": "как скрыть элемент?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 245
   },
@@ -2210,6 +2455,7 @@
     "question": "как сбросить все свойства у элемента до дефолтных",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 246
   },
@@ -2219,6 +2465,7 @@
     "question": "Что такое инлайновый стиль? Можно ли его переопределить?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 247
   },
@@ -2228,6 +2475,7 @@
     "question": "Что такое CSS? И для чего он используется?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 248
   },
@@ -2237,6 +2485,7 @@
     "question": "Варианты добавление CSS стилей на страницу?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 249
   },
@@ -2246,6 +2495,7 @@
     "question": "Типы позиционирования в CSS?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 250
   },
@@ -2255,6 +2505,7 @@
     "question": "Блочная модель CSS?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 251
   },
@@ -2264,6 +2515,7 @@
     "question": "Что такое селектор? И какие селекторы существуют?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 252
   },
@@ -2273,6 +2525,7 @@
     "question": "Что такое специфичность селектора? Как считать вес селектора?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 253
   },
@@ -2282,6 +2535,7 @@
     "question": "Разница между Reset.css и Normalize.css?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 254
   },
@@ -2291,6 +2545,7 @@
     "question": "Разница между margin и padding?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 255
   },
@@ -2300,6 +2555,7 @@
     "question": "Что такое вендорные префиксы? И для чего они используются?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 256
   },
@@ -2309,6 +2565,7 @@
     "question": "Что такое схлопывание границ (margin collapsing)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 257
   },
@@ -2318,6 +2575,7 @@
     "question": "Какие CSS-свойства используются для создания анимаций и плавных переходов?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 258
   },
@@ -2327,6 +2585,7 @@
     "question": "Что такое z-index? Как формируется контекст наложения?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 259
   },
@@ -2336,6 +2595,7 @@
     "question": "Что такое CSS препроцессор?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 260
   },
@@ -2345,6 +2605,7 @@
     "question": "Плюсы и минусы методологии БЭМ?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 261
   },
@@ -2354,6 +2615,7 @@
     "question": "Глобальные ключевые слова в CSS?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 262
   },
@@ -2363,6 +2625,7 @@
     "question": "Как с помощью CSS определить, поддерживается ли свойство в браузере?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 263
   },
@@ -2372,6 +2635,7 @@
     "question": "Порядок наложения элементов в CSS (Stacking Order)?",
     "description": "",
     "rate": "default",
+    "selected": false,
     "lvl": "junior",
     "id": 264
   }

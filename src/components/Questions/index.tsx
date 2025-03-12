@@ -5,7 +5,7 @@ const Questions = () => {
   const [controlledQuestions, setControlledQuestions] = useState(theory);
   const [selectedGroup, setSelectedGroup] = useState<string[]>([]);
   const [open, setOpen] = useState(false);
-  console.log("===>", selectedGroup);
+
   // console.log(
   //   JSON.stringify(theory.map((item, index) => ({ ...item, id: index + 1 }))),
   // );
@@ -46,7 +46,19 @@ const Questions = () => {
     }
 
     candidate.rate = rate;
-    console.log({ candidate, id, rate });
+    setControlledQuestions(copied);
+    saveData();
+  };
+
+  const selectQuestion = (id: number) => {
+    const copied = [...controlledQuestions];
+    const candidate = copied.find((item) => item.id === id);
+
+    if (!candidate) {
+      return;
+    }
+
+    candidate.selected = !candidate.selected;
     setControlledQuestions(copied);
     saveData();
   };
@@ -64,20 +76,6 @@ const Questions = () => {
 
     return Object.entries(Object.groupBy(filterByGroup, ({ group }) => group));
   };
-  const getRateColor = (rate: string) => {
-    switch (rate) {
-      case "default":
-        return "bg-gray-500";
-      case "pass":
-        return "bg-red-500";
-      case "bad":
-        return "bg-pink-500";
-      case "good":
-        return "bg-yellow-500";
-      case "great":
-        return "bg-green-500";
-    }
-  };
 
   const getLvlColor = (lvl: string) => {
     switch (lvl) {
@@ -94,6 +92,18 @@ const Questions = () => {
     return Array.from(new Set(theory.map((item) => item.group)));
   };
 
+  const toJsonAndDownload = (name: string, data: unknown) => {
+    const dataStr =
+      "data:text/json;charset=utf-8," +
+      encodeURIComponent(JSON.stringify(data));
+    const downloadAnchorNode = document.createElement("a");
+    downloadAnchorNode.setAttribute("href", dataStr);
+    downloadAnchorNode.setAttribute("download", `${name}.json`);
+    document.body.appendChild(downloadAnchorNode);
+    downloadAnchorNode.click();
+    downloadAnchorNode.remove();
+  };
+
   const downloadResults = () => {
     const extractedData = controlledQuestions
       .filter((item) => item.rate !== "default")
@@ -101,15 +111,17 @@ const Questions = () => {
         rate: item.rate,
         question: item.question,
       }));
-    const dataStr =
-      "data:text/json;charset=utf-8," +
-      encodeURIComponent(JSON.stringify(extractedData));
-    const downloadAnchorNode = document.createElement("a");
-    downloadAnchorNode.setAttribute("href", dataStr);
-    downloadAnchorNode.setAttribute("download", "results.json");
-    document.body.appendChild(downloadAnchorNode);
-    downloadAnchorNode.click();
-    downloadAnchorNode.remove();
+
+    if (extractedData.length > 0) {
+      toJsonAndDownload("result", extractedData);
+    }
+  };
+
+  const downloadPreset = () => {
+    const extractedData = controlledQuestions.filter((item) => item.selected);
+    if (extractedData.length > 0) {
+      toJsonAndDownload("preset", extractedData);
+    }
   };
 
   const selectGroup = (checked: boolean, group: string) => {
@@ -126,6 +138,13 @@ const Questions = () => {
     <div>
       <div className="flex-col items-center text-base font-semibold text-gray-900 dark:text-white relative mb-8">
         <div className={"flex mb-4 justify-between"}>
+          <button
+            onClick={downloadPreset}
+            type="button"
+            className="cursor-pointer text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+          >
+            Выгрузить пресет
+          </button>
           <button
             onClick={downloadResults}
             type="button"
@@ -212,54 +231,65 @@ const Questions = () => {
               "divide-y divide-gray-200 dark:divide-gray-700 bg-gray-800 rounded-xl p-4"
             }
           >
-            {questions.map((item, index) => (
-              <li className="py-3 sm:pb-4">
-                <div className="flex items-center space-x-4 rtl:space-x-reverse">
-                  <span
-                    className={`flex w-3 h-3 me-3 ${getRateColor(item.rate)} rounded-full`}
-                  ></span>
-                  <p className="text-sm font-bold text-gray-900 truncate dark:text-white">
-                    {index + 1}
-                  </p>
-                  <div className="flex-1">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
-                      {item.question}
+            {questions
+              .sort((a, b) => b.selected - a.selected)
+              .map((item, index) => (
+                <li
+                  className={`py-1 sm:pb-4 cursor-pointer group ${item.selected ? "opacity-100" : "opacity-50"}`}
+                  onClick={() => selectQuestion(item.id)}
+                >
+                  <div className="flex items-center space-x-4 rtl:space-x-reverse">
+                    <div className="flex items-center mb-4">
+                      <input
+                        name={`selected-${item.id}`}
+                        type="checkbox"
+                        checked={item.selected}
+                        className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                      />
+                    </div>
+                    <p className="text-sm font-bold text-gray-900 truncate dark:text-white">
+                      {index + 1}
                     </p>
-                    <span
-                      className={`${getLvlColor(item.lvl)} text-white text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm `}
-                    >
-                      {item.lvl}
-                    </span>
-                  </div>
-                  <div className="flex-col items-center text-base font-semibold text-gray-900 dark:text-white relative">
-                    <select
-                      id="rate"
-                      onChange={(e) => updateRate(item.id, e.target.value)}
-                      className={`bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500`}
-                    >
-                      <option
-                        value="default"
-                        selected={item.rate === "default"}
+                    <div className="flex-1">
+                      <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
+                        {item.question}
+                      </p>
+                      <span
+                        className={`${getLvlColor(item.lvl)} text-white text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm `}
                       >
-                        Не задан
-                      </option>
-                      <option selected={item.rate === "pass"} value="pass">
-                        Не ответил
-                      </option>
-                      <option selected={item.rate === "bad"} value="bad">
-                        Плохо
-                      </option>
-                      <option selected={item.rate === "good"} value="good">
-                        Хорошо
-                      </option>
-                      <option selected={item.rate === "great"} value="great">
-                        Отлично
-                      </option>
-                    </select>
+                        {item.lvl}
+                      </span>
+                    </div>
+                    <div className="flex-col items-center text-base font-semibold text-gray-900 dark:text-white relative">
+                      <select
+                        id="rate"
+                        onChange={(e) => updateRate(item.id, e.target.value)}
+                        className={`bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500`}
+                        value={item?.rate}
+                      >
+                        <option
+                          value="default"
+                          selected={item.rate === "default"}
+                        >
+                          Не задан
+                        </option>
+                        <option selected={item.rate === "pass"} value="pass">
+                          Не ответил
+                        </option>
+                        <option selected={item.rate === "bad"} value="bad">
+                          Плохо
+                        </option>
+                        <option selected={item.rate === "good"} value="good">
+                          Хорошо
+                        </option>
+                        <option selected={item.rate === "great"} value="great">
+                          Отлично
+                        </option>
+                      </select>
+                    </div>
                   </div>
-                </div>
-              </li>
-            ))}
+                </li>
+              ))}
           </ul>
         </div>
       ))}
