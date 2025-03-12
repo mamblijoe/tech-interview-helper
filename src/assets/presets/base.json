@@ -1,0 +1,82 @@
+[
+  {
+    "group": "Web Development",
+    "subgroup": "Rendering Strategies",
+    "question": "основные стратегии рендеринга (CSR, SSR, SSG, ISG)",
+    "description": "",
+    "rate": "default",
+    "selected": true,
+    "lvl": "junior",
+    "id": 1
+  },
+  {
+    "group": "State Management",
+    "subgroup": "General",
+    "question": "стейт менеджмент - redux/mobx? для чего нужны сторы?",
+    "description": "",
+    "rate": "default",
+    "selected": true,
+    "lvl": "junior",
+    "id": 27
+  },
+  {
+    "group": "HTML",
+    "subgroup": "General",
+    "question": "Был ли опыт верстки макетов с нуля?",
+    "description": "",
+    "rate": "default",
+    "selected": true,
+    "lvl": "junior",
+    "id": 174
+  },
+  {
+    "group": "HTML",
+    "subgroup": "General",
+    "question": "Что такое HTML и для чего он используется?",
+    "description": "",
+    "rate": "default",
+    "selected": true,
+    "lvl": "junior",
+    "id": 175
+  },
+  {
+    "group": "HTML",
+    "subgroup": "Doctype",
+    "question": "Что такое doctype? И для чего он используется?",
+    "description": "",
+    "rate": "default",
+    "selected": true,
+    "lvl": "junior",
+    "id": 176
+  },
+  {
+    "group": "HTML",
+    "subgroup": "Validation",
+    "question": "Что такое валидация? И какие типы проверок HTML документа вы знаете?",
+    "description": "",
+    "rate": "default",
+    "selected": true,
+    "lvl": "junior",
+    "id": 177
+  },
+  {
+    "group": "HTML",
+    "subgroup": "Buttons",
+    "question": "Какой тэг использовать для того, что бы сверстать кнопку?",
+    "description": "",
+    "rate": "default",
+    "selected": true,
+    "lvl": "junior",
+    "id": 178
+  },
+  {
+    "group": "HTML",
+    "subgroup": "Semantics",
+    "question": "Что такое семантика? Какие семантичные тэги вы знаете?",
+    "description": "",
+    "rate": "default",
+    "selected": true,
+    "lvl": "junior",
+    "id": 179
+  }
+]
